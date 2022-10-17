@@ -1,12 +1,17 @@
 ## Side note
-From the first project, I have explored the complexity when it comes to considering different models. How the fittiest model may cause high variance and how the simplier one can lead to high bias. To avoid and balance these two matters, I was introduced with alot of complex machines that perform beautifully with different dataset. Seemingly, Linear Regression - which is one of the most fundamental approach in model fitting - is being overlooked even though this machine can perform outstandingly with some suitable dataset. Therefore, for this project, I want to dive into 
+From the first project, I have explored the complexity when it comes to picking models. How the fittiest model may cause high variance and how the simplier one can lead to high bias. To avoid and balance these two matters, I was introduced with alot of complex machines that perform beautifully with different dataset. Seemingly, Linear Regression - which is one of the most fundamental approach in model fitting - is being overlooked even though this machine can perform outstandingly with some suitable dataset. Therefore, for this project, I want to dive into the complexity of the Linear Regression Models (LRM) and show that with the right technique, Linear Model can be a powerful visualisation to trend recognisation and data fitting. 
 
+First, what exactly is Linear Regression model? Linear Regression is an approach to graph the relationship between one response variable and one or more explanatory variables, under the assumption of linear relation. If there is only one independent varibale, we will call the model simple linear regression. But if there more than one explaining the dependent variable, we will call it multiple linear regression.
 
-As for now, to tackle the complexity of this matter, I will start off with a topic that is just about model selections. Specifically, I will dive into a dataset with 15 explanatory variables and one response variable. The chosen data will attempt to explain the effect that outer factors have on one's choice of meal cost, such as their financial situation, education, number of meals a day, workclass etc, and how we can predict their choice based on these characeristics. The objective of this project is to only focus on finding the most suitable prediction model for it and use it to test on other datasets. 
+The most simpliest form of LRM is to assume a direct linear relationship between X and Y. However, X can also correlate to other transformations of Y, such as 1/Y, log(Y+1), 1/(Y+1), or square(Y). These transformation can do wonder especially when the condition for linear regression is met. In this project, we will explore what it means to chech for the quality and condition of a dataset and how it can assure the accuracy of our models.
+
+As for now, we will go in to our topic. Our alcohol intakes have always been an interesting topic due to its various explanatory factors,body, mood, food consumption, other substance consumption. There is one article that particularly discuss about how our body takes in various types of alcohol differently even with the same recommended standard drink portion. They take into account that age and gender difference can affect the whole process, alongside other lurking variables such as health conditions and at the time medication intake. To fully determine how fast different type of alcohol wears off in one’s system, we issue an experimental study with 4 types of alcohol, targeting drinkers with similar age range and gender.
+
+to tackle the complexity of this matter, I will start off with a topic that is just about model selections. Specifically, I will dive into a dataset with 15 explanatory variables and one response variable. The chosen data will attempt to explain the effect that outer factors have on one's choice of meal cost, such as their financial situation, education, number of meals a day, workclass etc, and how we can predict their choice based on these characeristics. The objective of this project is to only focus on finding the most suitable prediction model for it and use it to test on other datasets. 
 
 The data will be collected from the Island - a virtual simulation of human population that has been developed to support learning and teaching in experimental design, epidemiology and statistical reasoning. These simulated islanders will be asked a simple question of how much they spend on a meal, followed some personal questions about theit income, workclass, education and we will use the data to predict individual spending on food and its pattern.
 
-# Topic: What is the optimal machine? - Project Overview
+# Topic: With the same unit of standardo all types of alcohol affect the digestive system the same way? - Project Overview
 - Gathered data from simulated islanders using one question
 - Used 10-fold Cross Valuation to set up 10 sets of training data and validating data 
 - Calculated Mean Squared Prediction Error (MSPE) and drawed its distribution on boxplot based on each type of model and training-validating set we attempt to fit 
@@ -20,9 +25,12 @@ The data will be collected from the Island - a virtual simulation of human popul
 **Link**: https://static1.squarespace.com/static/5ff2adbe3fe4fe33db902812/t/6009dd9fa7bc363aa822d2c7/1611259312432/ISLR+Seventh+Printing.pdf
 
 ## Data set
-- **Data2020.csv** : training set
-- **Data2020testX.csv** : prediction testing set  
-*Both on the file
+   **Data2020.csv** : training set
+• Target Population: Male drinkers who’re in the age of 20-40
+• Study Population: Male drinkers who’re in the age of 20-40 in the Island
+• Experimental Unit (subject): Adult male
+• Quantitative response variable: Change in BAC levels in the first 30 minutes
+• Factor: Tequila, White wine, Regular Beer, Mai Tai, and Water
 
 ## Models
 - Linear Regression Line
