@@ -19,8 +19,7 @@ Similar to the first project, data will be collected from the Island - a virtual
 
 ## Code and Resources Used
 **R version**: 4.0.4 (2021-02-15)  
-**Packages**: tidyverse, rpart, mgcv, MASS, glmnet.  
-**Reference book**: An Introduction to Statistical Learning with Applications in R by *Gareth James, Daniela Witten, Trevor Hastie, Robert Tibshirani   
+**Packages**: tidyverse, rpart, mgcv, MASS, glmnet.     
 **Link**: https://static1.squarespace.com/static/5ff2adbe3fe4fe33db902812/t/6009dd9fa7bc363aa822d2c7/1611259312432/ISLR+Seventh+Printing.pdf
 
 ## Data set
