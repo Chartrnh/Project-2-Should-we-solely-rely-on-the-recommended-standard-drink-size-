@@ -1,0 +1,77 @@
+Island,City,House,Name ,Type of Alcohol,BAC level (g/dL) after drink,BAC level (g/dL) 30 minutes after drink,BAC (mg/dl) per half an hour ,
+E,Biruwa,7,Lukas Solberg,Tequila,0,0.008,8,30
+E,Biruwa,6,Kazuki Regan ,Tequila,0,0.011,11,28
+S,Nidoma,231,Logan Brown ,Tequila,0.002,0.006,4,21
+S,Pauma,219,Scott Wilson,Tequila,0.004,0.012,8,35
+E,Hayarano,26,Naoki Brown ,Tequila,0.001,0.01,9,26
+S,Nidoma,288,Davignon Lund ,Tequila,0,0.011,11,29
+N,Vardo,233,Erik Svendsen,Tequila,0.003,0.011,8,40
+E,Biruwa,111,Jorn Sorensen,Tequila,0,0.01,10,30
+N,Vardo,301,Leif Blomgren ,Tequila,0.002,0.008,6,32
+N,Bjurholm,107,Benjamin Wilson,Tequila,0,0.009,9,23
+S,Maeva,505,Antoine Lund,Tequila,0,0.015,15,23
+N,Helvig,202,Matthew Suzuki,Tequila,0.003,0.006,3,21
+S,Nidoma,36,Anund Sorensen,Tequila,0,0.011,11,20
+S,Nidoma,182,Elias Olsen,Tequila,0,0.006,6,27
+E,Shinobi,365,Dylan Kimura,Tequila,0,0.013,13,24
+N,Helvig,330,Kirk Blomgren ,White Wine,0.008,0.025,17,35
+S,Nidoma,431,Liam Morris,White Wine,0,0.026,26,
+S,Colmar,1267,Bernard Eklund,White Wine,0.015,0.027,12,33
+S,Riroua,182,Francois Thorn ,White Wine,0.013,0.04,27,32
+S,Colmar,1033,Alexandre Perrot,White Wine,0.012,0.03,18,20
+E,Biruwa,171,Colin McCarthy,White Wine,0.014,0.022,8,36
+S,Nidoma,340,Lukas Thorn,White Wine,0,0.025,25,
+N,Helvig,116,Alexander Hall,White Wine,0.002,0.009,7,22
+S,Eden,90,Riku Regen,White Wine,0,0.023,23,20
+S,Riroua,174,Torvald Solberg,White Wine,0.006,0.022,16,36
+E,Takazaki,21,Ronan Moore,White Wine,0.007,0.0024,17,38
+E,Takazaki,246,Robin McCarthy,White Wine,0.011,0.03,19,21
+S,Pauma,36,Philipp Jensen,White Wine,0.009,0.025,16,33
+N,Bjurholm,39,Kazuya Jackson,White Wine,0,0.021,21,25
+E,Akkeshi,365,Erling Carlsen,White Wine,0.001,0.03,29,28
+S,Maeva,370,Olivier Eklund,Regular Beer,0.001,0.012,11,
+N,Vardo,447,Torsten Carlsen,Regular Beer,0,0.003,3,
+N,Blonduos,48,Evan Wilson,Regular Beer,0.003,0.01,7,
+N,Vardo,30,Colin Connolly,Regular Beer,0.002,0.009,7,
+S,Riroua,535,Kirk Madsen,Regular Beer,0.001,0.013,12,
+E,Biruwa,390,Arvid Eklund,Regular Beer,0,0.014,14,
+E,Reading,16,Lukas Bager,Regular Beer,0.003,0.02,17,
+S,Talu,208,Sho Price,Regular Beer,0,0.012,12,
+S,Talu,397,Hallmar Jensen,Regular Beer,0.003,0.006,3,
+N,Helvig,255,Gerik Eklund,Regular Beer,0,0.008,8,
+N,Helluland,34,Tyr Thorn,Regular Beer,0.002,0.004,2,31
+S,Kinsale,127,Davignon Thron,Regular Beer,0.001,0.011,10,23
+S,Mahuti,117,Jermaine Solberg,Regular Beer,0.003,0.008,5,23
+N,Hofn,1134,Nils Blomgren,Regular Beer,0.003,0.013,10,38
+E,Shinobi,141,Thurston Solberg,Regular Beer,0.002,0.014,12,32
+N,Hofn,1133,Daniel Sorensen,Mai Tai,0,0.018,18,
+S,Colmar,1449,Hebrik Calrlsen,Mai Tai,0.003,0.011,8,
+S,Vaiku,467,Evan Moore,Mai Tai,0.004,0.018,14,*
+N,Blonduos,62,Rephael Carlsen,Mai Tai,0,0.007,7,
+E,Akkeshi,57,Zachary Sato,Mai Tai,0,0.025,25,
+E,Hayarano,398,Minh Brown,Mai Tai,0.005,0.011,6,
+N,Vardo,652,Jonas Solberg,Mai Tai,0,0.016,16,
+N,Hofn,176,Jonas Sorensen,Mai Tai,0.002,0.013,11,
+S,Gordes,346,Ren Davies,Mai Tai,0.006,0.017,11,
+E,Kiyobico,102,James Mccarthy,Mai Tai,0.003,0.007,4,
+E,Reading,497,Maximilian Jensen,Mai Tai,0,0.016,16,40
+S,Valais,198,Justin Collins,Mai Tai,0.003,0.013,10,29
+E,Reading,306,Jacob Collins,Mai Tai,0,0.012,12,32
+E,Kiyobico,282,Raphael Carlsen,Mai Tai,0,0.016,16,35
+E,Takazaki,201,Hans Carlsen,Mai Tai,0.002,0.019,17,22
+E,Takazaki,13,Thurston Solberg,Water,0,0,0,
+S,Nidoma,427,Dr Florian Sorensen,Water,0,0,0,
+E,Biruwa,250,Riku Sato,Water,0,0,0,
+S,Vaiku,333,Jun Collins,Water,0.005,0.005,0,
+S,Colmar,678,Noel Erickson,Water,0.005,0.005,0,
+S,Riroua,14,Francois Jackson,Water,0.006,0.006,0,
+S,Colmar,1237,Magnar Carlsen,Water,0,0,0,
+E,Arcadia,45,Daniel Maccarthy,Water,0,0,0,
+S,Valais,36,Daniel Connlly,Water,0,0,0,
+S,Mahuti,399,Oriel Connlly,Water,0.003,0.003,0,
+N,Vardo,416,Jorn Thorn,Water,0,0,0,
+E,Nelson,367,Riley Brown,Water,0,0,0,
+S,Pauma,353,Yorick Bager,Water,0.001,0.001,0,
+E,Reading,720,Evan Sato,Water,0.007,0.007,0,
+N,Vardo,518,Harold Sorensen,Water,0,0,0,
+,,,,,,,29,
