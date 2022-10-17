@@ -11,24 +11,18 @@ Similar to the first project, data will be collected from the Island - a virtual
 
 
 # Topic: With the same unit of standardo all types of alcohol affect the digestive system the same way? - Project Overview
-- Gathered data from simulated islanders using one question
-- Used 10-fold Cross Valuation to set up 10 sets of training data and validating data 
-- Calculated Mean Squared Prediction Error (MSPE) and drawed its distribution on boxplot based on each type of model and training-validating set we attempt to fit 
-- Chose the model with lowest MSPE and narrowest shape in boxplot 
-- Used the chosen model as our prediction machine to estimate pattern.
+- Target Population: Male drinkers who’re in the age of 20-40
+- Experimental Unit (subject): Adult male
+- Quantitative response variable: Change in BAC levels in the first 30 minutes
+- Factor: Tequila, White wine, Regular Beer, Mai Tai, and Water
 
 ## Code and Resources Used
 **R version**: 4.0.4 (2021-02-15)  
-**Packages**: tidyverse, rpart, mgcv, MASS, glmnet.     
-**Link**: https://static1.squarespace.com/static/5ff2adbe3fe4fe33db902812/t/6009dd9fa7bc363aa822d2c7/1611259312432/ISLR+Seventh+Printing.pdf
+**Packages**: tidyverse, lattice, emmeans   
+**Link**: [https://static1.squarespace.com/static/5ff2adbe3fe4fe33db902812/t/6009dd9fa7bc363aa822d2c7/1611259312432/ISLR+Seventh+Printing.pdf](https://www.addictioncenter.com/alcohol/how-long-is-alcohol-in-your-system/)
 
-## Data set
-   **Data2020.csv** : training set
-• Target Population: Male drinkers who’re in the age of 20-40
-• Study Population: Male drinkers who’re in the age of 20-40 in the Island
-• Experimental Unit (subject): Adult male
-• Quantitative response variable: Change in BAC levels in the first 30 minutes
-• Factor: Tequila, White wine, Regular Beer, Mai Tai, and Water
+## Data set: 
+
 
 ## Models
 - Linear Regression Line
