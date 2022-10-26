@@ -17,8 +17,10 @@ Similar to the first project, data will be collected from the Island - a virtual
 - Factor: Tequila, White wine, Regular Beer, Mai Tai, and Water
 
 ## Code and Resources Used
-**R version**: 4.0.4 (2021-02-15)  
-**Packages**: tidyverse, lattice, emmeans   
+**R version**: on JupyterHub  
+**Packages**: tidyverse, lattice, emmeans 
+**Python version**: Python 3.10.8  
+**Modules: pandas, numpy, ValuesView, matplotlib.pyplot, matplotlib, matplotlib.ticker , seaborn, statsmodels.api, ols  
 **Article**: How long is alcohol in your system  
 **Resource**: STAT2 Modeling with Regression and ANOVA - *Ann Cannon; George W. Cobb; Bradley A. Hartlaub; Julie M. Legler; Robin H. Lock; Thomas L. Moore; Allan J. Rossman; Jeffrey A. Witmer*  
 **Link**: [https://static1.squarespace.com/static/5ff2adbe3fe4fe33db902812/t/6009dd9fa7bc363aa822d2c7/1611259312432/ISLR+Seventh+Printing.pdf](https://www.addictioncenter.com/alcohol/how-long-is-alcohol-in-your-system/)  
