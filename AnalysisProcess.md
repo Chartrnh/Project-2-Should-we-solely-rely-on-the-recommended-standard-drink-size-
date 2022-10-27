@@ -11,9 +11,9 @@ When it comes to Linear Regression, it is unreasonable to "blatantly" assume its
 
 ![Figure_1](https://user-images.githubusercontent.com/108549500/198199350-85435984-b5fb-40d8-8946-73696a73b6b2.png)   
 
-By looking at the histogram, we can briefly judge the distribution of BAC based on each category of its independent variable. There were no typos or unusual values that should be noted. Specifically:  
-- Tequila: The distribution seems to be normal with a little bit right-skewed 
-- Water: this treatment group particularly has reaction unchanged throughout the sample. This implies that water (the placebo treatment)
+In this histogram, each category is being graphed based on its percentage of total count, instead of its actual count. It was done intentionally so that a obvious placebo  like Water would not disrupt the visibility of other observations. A fiited line is also added for each histogram to visualise its distribution. Therefore, by looking at it, we can briefly judge the distribution of BAC based on each category of its independent variable and so far, there were no typos or unusual values that should be noted. Specifically:  
+- Tequila: The distribution seems to be normal with a little bit right-skewed 
+- Water: this treatment group particularly has reaction unchanged throughout the sample which is perfectly represent a placebo treatment
 has no effect on BAC level 
 - White wine: The distribution seems to be left-skewed 
 - Mai Tai: the distribution is right-skewed 
