@@ -31,7 +31,24 @@ has no effect on BAC level
 - Constant Variance: From the residual and fitted, it can be seen that each treatment group’s variances are not constant
 
 There are problems with the condition check that raises the flag that simple form of LRM might not be suitable for the data, therefore, some transformation will be needed. The 'Type of Alcohol' factor is categorical variable, so transformation would be done on BAC level exclusively. To keep the simplicity and the digestability of the project, I decide to only stick with transformation of only LRM for nor instead of others so that I can showcase its effectiveness. Tranformations I consider are: 
-- log(BAC+1)
+- logarithm of BAC+1
 - 1/(BAC+1)
-- Square(BAC)  
+- Square root of BAC  
+
 Each will be tried out and graphed to see which one is the most fitted one compared to the original model
+
+2. Machine Learning - SLR
+We will put each transformation in comparison with the simple LRM to observe any improvement. 
+- First is logarithm of BAC+1 or log(BAC+1)
+   
+![image](https://user-images.githubusercontent.com/108549500/198208433-cda382bc-db00-4a34-99f8-86546ac6c82b.png)
+![Figure_4](https://user-images.githubusercontent.com/108549500/198208660-fa7b51eb-b60c-4323-8df8-ad1c68f061af.png)  
+
+- Square root of BAC
+![image](https://user-images.githubusercontent.com/108549500/198209104-6a1b8b9e-e30e-4528-9b70-0a33244c9397.png)
+![Figure_5](https://user-images.githubusercontent.com/108549500/198209278-44250446-10df-403c-a097-05b7af830650.png)
+
+
+- 1/(BAC+1)
+![Figure_6](https://user-images.githubusercontent.com/108549500/198209154-b2261761-a78a-4dd2-bfc9-3939af982c16.png)
+
