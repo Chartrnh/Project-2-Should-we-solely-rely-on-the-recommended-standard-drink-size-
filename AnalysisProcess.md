@@ -38,7 +38,7 @@ There are problems with the condition check that raises the flag that simple for
 Each will be tried out and graphed to see which one is the most fitted one compared to the original model
 
 2. Machine Learning - SLR
-We will put each transformation in comparison with the simple LRM to observe any improvement. 
+From the condition check from the simple LRM before, there are three criterias that were not met. Therefore, we will solely focus on those three criterias when putting each transformation in comparison with the simple LRM and observe any changes or improvements. 
 - First is logarithm of BAC+1 or log(BAC+1)
    
 ![image](https://user-images.githubusercontent.com/108549500/198208433-cda382bc-db00-4a34-99f8-86546ac6c82b.png)
@@ -57,8 +57,7 @@ variances are not constant
 - Independence: Yes
 - Normality: According to the Normal QQ plot, this condition is improved because from the positive 1st deviation going foward, the distribution is seemingly going closer to the line than
 it did even when using llog(BAC+1)
-- Constant Variance: From the residual and fitted, it can be seen that this is the most fitted
-to the constant line compared to other
+- Constant Variance: From the residual and fitted, it can be seen that this is the most fitted to the constant line compared to other
 
 - 1/(BAC+1)  
 
@@ -66,9 +65,9 @@ to the constant line compared to other
 ![Figure_6](https://user-images.githubusercontent.com/108549500/198209154-b2261761-a78a-4dd2-bfc9-3939af982c16.png)
 
 - Independence: Yes
-0 Normality: According to the Normal QQ plot, this condition is getting even more off the normal istributed line
+- Normality: According to the Normal QQ plot, this condition is getting even more off the normal istributed line
 - Constant Variance: From the residual and fitted, it can be seen that each treatment group’s variances are not constant
 
-Final model:The sqrt(BAC) is considered to be the final model (see (C))
+Out of the three models, it is visible that square root of BAC is the one transformation that improves the performance of LRM on given data, specifically the two picky conditions, Normality and Constant variance. Thereforem, final chosen model will be Linear Regression Model with square root of BAC.  
 
 
