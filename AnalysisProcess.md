@@ -42,13 +42,33 @@ We will put each transformation in comparison with the simple LRM to observe any
 - First is logarithm of BAC+1 or log(BAC+1)
    
 ![image](https://user-images.githubusercontent.com/108549500/198208433-cda382bc-db00-4a34-99f8-86546ac6c82b.png)
-![Figure_4](https://user-images.githubusercontent.com/108549500/198208660-fa7b51eb-b60c-4323-8df8-ad1c68f061af.png)  
+![Figure_4](https://user-images.githubusercontent.com/108549500/198208660-fa7b51eb-b60c-4323-8df8-ad1c68f061af.png) 
+
+- Independence: Yes
+- Normality: According to the Normal QQ plot, this condition is improved because from the positive 1st deviation going foward, the distribution is seemingly going closer to the line than it did before
+- Constant Variance: From the residual and fitted, it can be seen that each treatment group’s
+variances are not constant
 
 - Square root of BAC
+
 ![image](https://user-images.githubusercontent.com/108549500/198209104-6a1b8b9e-e30e-4528-9b70-0a33244c9397.png)
 ![Figure_5](https://user-images.githubusercontent.com/108549500/198209278-44250446-10df-403c-a097-05b7af830650.png)
 
+- Independence: Yes
+- Normality: According to the Normal QQ plot, this condition is improved because from the positive 1st deviation going foward, the distribution is seemingly going closer to the line than
+it did even when using llog(BAC+1)
+- Constant Variance: From the residual and fitted, it can be seen that this is the most fitted
+to the constant line compared to other
 
-- 1/(BAC+1)
+- 1/(BAC+1)  
+
+![image](https://user-images.githubusercontent.com/108549500/198210869-956a9c0e-ba81-40b0-b85f-259a85765a09.png)
 ![Figure_6](https://user-images.githubusercontent.com/108549500/198209154-b2261761-a78a-4dd2-bfc9-3939af982c16.png)
+
+- Independence: Yes
+0 Normality: According to the Normal QQ plot, this condition is getting even more off the normal istributed line
+- Constant Variance: From the residual and fitted, it can be seen that each treatment group’s variances are not constant
+
+Final model:The sqrt(BAC) is considered to be the final model (see (C))
+
 
