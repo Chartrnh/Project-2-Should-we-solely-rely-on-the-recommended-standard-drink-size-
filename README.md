@@ -20,17 +20,22 @@ Similar to the first project, data will be collected from the Island - a virtual
 **R version**: on JupyterHub  
 **Packages**: tidyverse, lattice, emmeans 
 **Python version**: Python 3.10.8  
-**Modules: pandas, numpy, ValuesView, matplotlib.pyplot, matplotlib, matplotlib.ticker , seaborn, statsmodels.api, ols  
-**Article**: How long is alcohol in your system  
+**Modules**: pandas, numpy, ValuesView, matplotlib.pyplot, matplotlib, matplotlib.ticker , seaborn, statsmodels.api, ols  
+**Article**: How Long Does Alcohol Stay In Your System?
 **Resource**: STAT2 Modeling with Regression and ANOVA - *Ann Cannon; George W. Cobb; Bradley A. Hartlaub; Julie M. Legler; Robin H. Lock; Thomas L. Moore; Allan J. Rossman; Jeffrey A. Witmer*  
 **Link**: [https://static1.squarespace.com/static/5ff2adbe3fe4fe33db902812/t/6009dd9fa7bc363aa822d2c7/1611259312432/ISLR+Seventh+Printing.pdf](https://www.addictioncenter.com/alcohol/how-long-is-alcohol-in-your-system/)  
 https://www.macmillanlearning.com/college/us/product/STAT2/p/1319054072
 
 ## Data set: 
+**Data.csv**
 
 
 ## Models
-
+Linear regression with different formation of of dependent variable
+- Y
+- Square root of Y 
+- Logarithm of Y+1
+- 1/(Y+1) 
 
 ## Results
 
