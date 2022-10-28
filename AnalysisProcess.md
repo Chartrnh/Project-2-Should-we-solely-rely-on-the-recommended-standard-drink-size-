@@ -70,4 +70,13 @@ it did even when using llog(BAC+1)
 
 Out of the three models, it is visible that square root of BAC is the one transformation that improves the performance of LRM on given data, specifically the two picky conditions, Normality and Constant variance. Thereforem, final chosen model will be Linear Regression Model with square root of BAC.  
 
+## Study of each variable
+
+After figuring out the fitted model, next step is to used it to access the machine's insight and perform hypothesis testing with the premise of finding if  with the same unit of standard, different alcoholdrink really impact our body differently. 
+
+To approach this question, we will use each variable group's means along with their confidence intervals and build up hypothesis testing. Assume u1 for Water group,u2 for Mai Tai group, u3 for Reglar Beer group, u4 for Tequila group, and u5 for White Wine group. The null hypothesis will claim that each group has the same effect as each other and and the alternative hypothesis will be u are not equal.  
+H0: u1=u2=u3=u4=u5  
+H1: u1 >< u2 >< u3 >< u4 >< u5
+
+
 
