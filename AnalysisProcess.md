@@ -70,13 +70,24 @@ it did even when using llog(BAC+1)
 
 Out of the three models, it is visible that square root of BAC is the one transformation that improves the performance of LRM on given data, specifically the two picky conditions, Normality and Constant variance. Thereforem, final chosen model will be Linear Regression Model with square root of BAC.  
 
-## Study of each variable
+## Study of each observation
 
-After figuring out the fitted model, next step is to used it to access the machine's insight and perform hypothesis testing with the premise of finding if  with the same unit of standard, different alcoholdrink really impact our body differently. 
+After figuring out the fitted model, next step is to used it to access the machine's insight and perform hypothesis testing with the premise of finding if with the same unit of standard, different alcohol drink really impact our body differently. 
 
-To approach this question, we will use each variable group's means along with their confidence intervals and build up hypothesis testing. Assume u1 for Water group,u2 for Mai Tai group, u3 for Reglar Beer group, u4 for Tequila group, and u5 for White Wine group. The null hypothesis will claim that each group has the same effect as each other and and the alternative hypothesis will be u are not equal.  
+To approach this question, we will use each variable group's means along with pairwise comparison process and build up hypothesis testing. Assume u1 for Water group,u2 for Mai Tai group, u3 for Reglar Beer group, u4 for Tequila group, and u5 for White Wine group. The null hypothesis will claim that each group has the same effect as each other and and the alternative hypothesis will be u are not equal.  
+
 H0: u1=u2=u3=u4=u5  
 H1: u1 >< u2 >< u3 >< u4 >< u5
 
+![image](https://user-images.githubusercontent.com/108549500/198747822-f2fb3c57-59cc-45e5-bf9a-519ba14cd08d.png)
+
+First, just looking at the estimated means and adjusted inference table, we can see that each type of drink has its own value mean that differs from each other. The only two that stands close in value are Regular Beer and Tequila, but still not close enough to not reject the null hypothesis. Overall, each observation is performing as expected, with Water as the intended placebo and the other 4 groups(Mai Tai, Regular Beer, Tequila and White Wine) placing a value significantly away from mean 0.
+
+Next, we will look at each type by using Fairwise comparison with Bonferroni correction as Familywise Errot Rate Control. Due to Fairwise comparison's nature that carries increasing probability of false positive as size of family test increases and out of every options, Bonferroni correcttion performs best in with small number of comparison, we will choose it over Fisher's correcttion and Tukey's correction.  
+
+![image](https://user-images.githubusercontent.com/108549500/198751045-66a8ec2f-7238-4e6a-975b-3d9c41e7569d.png)
+
+For our output, because the p-values of 6 pairs out of ten tests is less than 0.0001, it’s reasonable
+to reject H0, therefore there’s difference among 5 groups.
 
 
