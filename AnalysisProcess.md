@@ -1,4 +1,4 @@
-## Machine learning: find a fitting model 
+## Machine learning: find a fitting LR model 
 
 1. Data Verification - check for condition of LRM on given data
 
