@@ -90,7 +90,7 @@ Next, we will look at t-value of each type, by using Fairwise comparison with Bo
 We can see from the matrix, all possible pairwise comparisons were performed, and the p-values were adjusted using a Bonferroni correction. Setting aside Water, we have 3 more pairs (White Wine - Tequila, White wine - Regular Beer, WHite wine - Mai Tai) differed significantly from each other (adjusted p << α) based on an α-level of 0.05. No other pairwise differences were significant. For our output, because the p-values of those 7 pairs (including water) out of 10 tests is less than signifiant criteria, it’s reasonable to reject H0 and conclude a crucial difference among 5 groups.
 
 ## Conclusion
- As the data perform within our expectation and there’s no large variance or outlier, we can wrap up the project and state that the effect of real treatment groups are significantly different from the placebo group and different type of alcohol have significant and different effect in human Blood Alcohol Concentrate level.
+ As the data perform within our expectation and there’s no large variance or outlier, we can wrap up the project and state that the effect of real treatment groups are significantly different from the placebo group and each type of alcohol have significant and different effect on human Blood Alcohol Concentrate level.
 
 
 
