@@ -83,11 +83,14 @@ H1: u1 >< u2 >< u3 >< u4 >< u5
 
 First, just looking at the estimated means and adjusted inference table, we can see that each type of drink has its own value mean that differs from each other. The only two that stands close in value are Regular Beer and Tequila, but still not close enough to not reject the null hypothesis. Overall, each observation is performing as expected, with Water as the intended placebo and the other 4 groups(Mai Tai, Regular Beer, Tequila and White Wine) placing a value significantly away from mean 0.
 
-Next, we will look at each type by using Fairwise comparison with Bonferroni correction as Familywise Errot Rate Control. Due to Fairwise comparison's nature that carries increasing probability of false positive as size of family test increases and out of every options, Bonferroni correcttion performs best in with small number of comparison, we will choose it over Fisher's correcttion and Tukey's correction.  
+Next, we will look at t-value of each type, by using Fairwise comparison with Bonferroni correction as Familywise Errot Rate Control. The reason for choosing Bonferroni over Fisher's correcttion and Tukey's correction is because of Fairwise comparison's nature that carries increasing probability of false positive in t-value testing and the compatibility Bonferroni correcttion has with small number of comparison. And for this hypothesis, we will use α = 0.05 as the significant criteria. The matrix will be shown below: 
 
 ![image](https://user-images.githubusercontent.com/108549500/198751045-66a8ec2f-7238-4e6a-975b-3d9c41e7569d.png)
 
-For our output, because the p-values of 6 pairs out of ten tests is less than 0.0001, it’s reasonable
-to reject H0, therefore there’s difference among 5 groups.
+We can see from the matrix, all possible pairwise comparisons were performed, and the p-values were adjusted using a Bonferroni correction. Setting aside Water, we have 3 more pairs (White Wine - Tequila, White wine - Regular Beer, WHite wine - Mai Tai) differed significantly from each other (adjusted p << α) based on an α-level of 0.05. No other pairwise differences were significant. For our output, because the p-values of those 7 pairs (including water) out of 10 tests is less than signifiant criteria, it’s reasonable to reject H0 and conclude a crucial difference among 5 groups.
+
+## Conclusion
+ As the data perform within our expectation and there’s no large variance or outlier, we can wrap up the project and state that the effect of real treatment groups are significantly different from the placebo group and different type of alcohol have significant and different effect in human Blood Alcohol Concentrate level.
+
 
 
